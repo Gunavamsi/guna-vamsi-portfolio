@@ -6,7 +6,7 @@
 <title>Guna Vamsi Krishna — Full Stack .NET Developer</title>
 <meta name="description" content="Full Stack .NET Developer with 4+ years building enterprise distributed systems, cloud-native microservices, and high-performance APIs at JPMorgan Chase.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #050a0e;
@@ -54,7 +54,7 @@ body {
 body::before {
   content:'';
   position:fixed; inset:0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='256' height='256' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
   pointer-events:none; z-index:9999; opacity:0.35;
 }
 
@@ -199,7 +199,6 @@ section { padding: 110px 0; }
   transition: all 0.2s;
 }
 .social-link:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); transform: translateY(-2px); }
-/* Right hero */
 .hero-right { position: relative; }
 .hero-card {
   background: var(--bg-card);
@@ -534,7 +533,6 @@ section { padding: 110px 0; }
 .contact-link-content {}
 .contact-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; color: var(--text-3); letter-spacing: 0.08em; text-transform: uppercase; }
 .contact-link-val { font-size: 0.85rem; color: var(--text); margin-top: 2px; }
-/* Education */
 .edu-section { display:flex; flex-direction:column; gap:14px; }
 .edu-header {
   font-family: 'JetBrains Mono', monospace;
@@ -552,7 +550,6 @@ section { padding: 110px 0; }
 }
 .edu-school { font-size: 0.82rem; color: var(--text-2); margin-bottom: 3px; }
 .edu-loc { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-3); }
-/* Availability block */
 .availability-card {
   background: var(--bg); border: 1px solid rgba(0,230,118,0.2);
   border-radius: 10px; padding: 20px 22px; margin-top: 14px;
@@ -654,28 +651,20 @@ footer a { color: var(--accent); text-decoration: none; }
           Building at Scale
         </h1>
         <p class="hero-sub">
-          <strong>4+ years</strong> designing enterprise distributed systems, cloud-native microservices, and high-performance APIs. Currently at <strong>JPMorgan Chase</strong> serving 10,000+ concurrent users. Based in New Hampshire.
+          <strong>4+ years</strong> designing enterprise distributed systems, cloud-native microservices, and high-performance APIs. Currently at <strong>JPMorgan Chase</strong> serving 10,000+ concurrent users and delivering enterprise solutions.
         </p>
         <div class="hero-ctas">
           <a href="#experience" class="btn-primary">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            View Experience
+            📍 View Experience
           </a>
           <a href="mailto:gunavamsikrishna@gmail.com" class="btn-outline">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            Get in Touch
+            📧 Get in Touch
           </a>
         </div>
         <div class="hero-social">
-          <a href="mailto:gunavamsikrishna@gmail.com" class="social-link" title="Email">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </a>
-          <a href="https://www.linkedin.com/in/guna-vamsi-krishna-borigorla-aa109622a/" target="_blank" class="social-link" title="LinkedIn">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="tel:+16036822475" class="social-link" title="Phone">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 8.58 19.79 19.79 0 0 1 1.06 3.41 2 2 0 0 1 3.05 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
-          </a>
+          <a href="mailto:gunavamsikrishna@gmail.com" class="social-link" title="Email">📧</a>
+          <a href="https://www.linkedin.com/in/guna-vamsi-krishna-borigorla-aa109622a/" target="_blank" class="social-link" title="LinkedIn">in</a>
+          <a href="tel:+16036822475" class="social-link" title="Phone">☎️</a>
         </div>
       </div>
 
@@ -726,8 +715,8 @@ footer a { color: var(--accent); text-decoration: none; }
       <div class="about-text reveal">
         <div class="section-label">About Me</div>
         <h2>Crafting <em>systems</em> that scale, perform, and endure</h2>
-        <p>I'm a Full Stack .NET Developer with <strong>4+ years of experience</strong> building enterprise-grade distributed systems for financial services and technology companies. Currently at <strong>JPMorgan Chase</strong>, I architect mission-critical platforms that process high-volume trades and serve thousands of users simultaneously.</p>
-        <p>My expertise spans the full stack — from designing clean <strong>microservices architectures</strong> and high-throughput REST APIs on the backend, to building responsive, real-time front-end experiences with Angular and React. I bring a strong cloud-first mindset, with hands-on depth in <strong>Azure, Kubernetes, and DevOps automation</strong>.</p>
+        <p>I'm a Full Stack .NET Developer with <strong>4+ years of experience</strong> building enterprise-grade distributed systems for financial services and technology companies. Currently at JPMorgan Chase, I architect and develop microservices handling millions of transactions daily.</p>
+        <p>My expertise spans the full stack — from designing clean <strong>microservices architectures</strong> and high-throughput REST APIs on the backend, to building responsive, real-time UIs with Angular and React on the frontend. I specialize in cloud-native technologies on Azure and AWS.</p>
         <p>Outside of code, I mentor junior developers and contribute to clean architecture and engineering best practices across teams.</p>
         <div class="about-cards">
           <div class="about-card">
@@ -757,7 +746,7 @@ footer a { color: var(--accent); text-decoration: none; }
         <div class="expertise-blocks">
           <div class="expertise-block">
             <div class="expertise-block-title">Cloud-Native Architecture</div>
-            <div class="expertise-block-desc">Designing and deploying containerized microservices on Azure Kubernetes Service with auto-scaling, blue-green deployments, and Infrastructure-as-Code via Terraform.</div>
+            <div class="expertise-block-desc">Designing and deploying containerized microservices on Azure Kubernetes Service with auto-scaling, blue-green deployments, and Infrastructure-as-Code.</div>
             <div class="expertise-block-tags">
               <span class="micro-tag">AKS</span>
               <span class="micro-tag">Docker</span>
@@ -777,7 +766,7 @@ footer a { color: var(--accent); text-decoration: none; }
           </div>
           <div class="expertise-block">
             <div class="expertise-block-title">Enterprise API Development</div>
-            <div class="expertise-block-desc">Developing secure, high-performance RESTful APIs and GraphQL services with ASP.NET Core 8, Entity Framework Core, and robust OAuth 2.0 / JWT security patterns.</div>
+            <div class="expertise-block-desc">Developing secure, high-performance RESTful APIs and GraphQL services with ASP.NET Core 8, Entity Framework Core, and robust OAuth 2.0 / JWT security.</div>
             <div class="expertise-block-tags">
               <span class="micro-tag">ASP.NET Core 8</span>
               <span class="micro-tag">GraphQL</span>
@@ -787,7 +776,7 @@ footer a { color: var(--accent); text-decoration: none; }
           </div>
           <div class="expertise-block">
             <div class="expertise-block-title">Full-Stack UI Engineering</div>
-            <div class="expertise-block-desc">Building dynamic, responsive UIs with Angular 16 (NgRx, RxJS, lazy loading) and React.js with real-time data feeds via SignalR for high-performance front-end experiences.</div>
+            <div class="expertise-block-desc">Building dynamic, responsive UIs with Angular 16 (NgRx, RxJS, lazy loading) and React.js with real-time data feeds via SignalR for high-performance frontends.</div>
             <div class="expertise-block-tags">
               <span class="micro-tag">Angular 16</span>
               <span class="micro-tag">NgRx</span>
@@ -962,7 +951,6 @@ footer a { color: var(--accent); text-decoration: none; }
     </div>
 
     <div class="exp-timeline">
-      <!-- JPMorgan -->
       <div class="exp-item reveal">
         <div class="exp-meta">
           <div class="exp-company">JPMorgan Chase</div>
@@ -982,45 +970,15 @@ footer a { color: var(--accent); text-decoration: none; }
             <span class="exp-tag">Azure Service Bus</span>
           </div>
           <ul class="exp-highlights">
-            <li>Designed and developed scalable RESTful APIs and microservices using ASP.NET Core 8 and C# for JPMorgan's investment banking platform, serving <strong>10,000+ concurrent users</strong> — reduced API response latency by <strong>35%</strong> through Redis caching strategies and optimized SQL Server query execution plans.</li>
-            <li>Built dynamic Angular 16 front-end modules for trade order management and client portfolio dashboards with real-time SignalR data feeds; <strong>cut page load times by 40%</strong> via lazy loading, AOT compilation, and tree-shaking optimizations.</li>
-            <li>Architected event-driven microservices using Azure Service Bus and MassTransit for async trade notification workflows, decoupling <strong>6+ interdependent services</strong> and improving system fault tolerance and throughput by <strong>50%</strong>.</li>
-            <li>Deployed Azure Functions and App Services on AKS with Docker containerization and auto-scaling — <strong>saved $120K annually</strong> in infrastructure costs through right-sizing and serverless offloading of compute-intensive workflows.</li>
-            <li>Engineered multi-stage Azure DevOps CI/CD pipelines with blue-green deployments, automated xUnit testing, and SonarQube quality gates — <strong>compressed release cycle from 2 weeks to 2 days</strong> and eliminated manual deployment errors.</li>
-            <li>Implemented OAuth 2.0 + Azure AD authentication with RBAC across all financial APIs, achieving full SOX and PCI-DSS compliance with <strong>zero critical findings</strong> across all security audits.</li>
-            <li>Optimized SQL Server performance via execution plan analysis, composite index tuning, and T-SQL stored procedure refactoring — <strong>reduced critical risk and compliance reporting query runtime by 60%</strong>.</li>
-            <li>Introduced gRPC for high-throughput inter-service communication, replacing REST in 3 latency-sensitive internal services and reducing payload size by 40% for downstream consumers.</li>
-            <li>Mentored 2 junior developers on Clean Architecture, SOLID principles, and code review best practices — <strong>raised team code quality scores by 25%</strong> over two quarters.</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- ValueLabs -->
-      <div class="exp-item reveal">
-        <div class="exp-meta">
-          <div class="exp-company">ValueLabs</div>
-          <div class="exp-period">May 2021 – Jun 2023</div>
-          <div class="exp-location">Hyderabad, India</div>
-        </div>
-        <div class="exp-body">
-          <div class="exp-role">Full Stack .NET Developer</div>
-          <div class="exp-tags">
-            <span class="exp-tag">ASP.NET Core MVC</span>
-            <span class="exp-tag">Angular 14</span>
-            <span class="exp-tag">GraphQL</span>
-            <span class="exp-tag">CQRS</span>
-            <span class="exp-tag">SQL Server</span>
-            <span class="exp-tag">Jenkins CI/CD</span>
-          </div>
-          <ul class="exp-highlights">
-            <li>Developed and maintained enterprise ASP.NET Core MVC and Web API applications for a US-based insurance technology client, delivering <strong>8+ new product features per quarter</strong> and improving customer-facing portal performance by 30%.</li>
-            <li>Built reusable Angular 14 components with NgRx state management and lazy-loaded modules — <strong>reduced initial bundle size by 45%</strong> across 5,000+ daily active users, improving Core Web Vitals scores significantly.</li>
-            <li>Designed RESTful and GraphQL APIs with Entity Framework Core and LINQ for policy data retrieval, claims processing, and billing workflows — <strong>improved API throughput by 35%</strong> and reduced data access layer complexity.</li>
-            <li>Led full migration of legacy ASP.NET Web Forms application to ASP.NET Core using Clean Architecture and CQRS with MediatR — <strong>reduced codebase complexity by 40%</strong> and enabled independent deployment of business modules.</li>
-            <li>Implemented automated testing suites using xUnit, NUnit, and Moq achieving <strong>85% code coverage</strong>; integrated into Jenkins CI/CD pipelines to reduce production bug escape rate by 50%.</li>
-            <li>Designed and managed SQL Server schemas with stored procedures, views, triggers, and SSIS data migration packages — <strong>migrated 2M+ insurance policy records with zero data loss</strong>.</li>
-            <li>Integrated Stripe and PayPal payment gateway APIs with OAuth 2.0 and JWT token management, enabling end-to-end digital policy purchase and renewal workflows for 5,000+ daily users.</li>
-            <li>Implemented Cosmos DB and MongoDB for unstructured document storage alongside relational SQL Server data, establishing a <strong>polyglot persistence strategy</strong> that improved query performance for document-heavy workflows by 28%.</li>
+            <li>Designed and developed scalable RESTful APIs and microservices using ASP.NET Core 8 and C# for JPMorgan's investment banking platform, serving <strong>10,000+ concurrent users</strong></li>
+            <li>Built dynamic Angular 16 front-end modules for trade order management and client portfolio dashboards with real-time SignalR data feeds; <strong>cut page load times by 40%</strong></li>
+            <li>Architected event-driven microservices using Azure Service Bus and MassTransit for async trade notification workflows, decoupling <strong>6+ interdependent services</strong></li>
+            <li>Deployed Azure Functions and App Services on AKS with Docker containerization and auto-scaling — <strong>saved $120K annually</strong> in infrastructure costs</li>
+            <li>Engineered multi-stage Azure DevOps CI/CD pipelines with blue-green deployments, automated xUnit testing, and SonarQube quality gates</li>
+            <li>Implemented OAuth 2.0 + Azure AD authentication with RBAC across all financial APIs, achieving <strong>full SOX and PCI-DSS compliance</strong></li>
+            <li>Optimized SQL Server performance via execution plan analysis, composite index tuning, and T-SQL stored procedure refactoring</li>
+            <li>Introduced gRPC for high-throughput inter-service communication, reducing payload size by 40% for downstream consumers</li>
+            <li>Mentored 2 junior developers on Clean Architecture, SOLID principles, and code review best practices</li>
           </ul>
         </div>
       </div>
@@ -1031,112 +989,58 @@ footer a { color: var(--accent); text-decoration: none; }
 <hr class="section-divider">
 
 <!-- PROJECTS -->
-<section id="projects" style="background: var(--bg-2);">
+<section id="projects">
   <div class="page">
     <div class="section-header reveal">
       <div class="section-label">Featured Work</div>
       <h2 class="section-title">Key <em>Projects</em></h2>
     </div>
+
     <div class="projects-grid">
       <div class="project-card reveal">
-        <div class="project-num">Project — 01</div>
-        <div class="project-name">Investment Banking Platform</div>
+        <div class="project-num">PROJECT 01</div>
+        <div class="project-name">High-Performance Trading Platform</div>
         <div class="project-impact">
-          <span class="impact-badge">⚡ 35% Latency Cut</span>
-          <span class="impact-badge">👥 10K+ Users</span>
+          <span class="impact-badge">35% Faster</span>
+          <span class="impact-badge">10K+ Users</span>
         </div>
-        <p class="project-desc">High-volume transaction system at JPMorgan serving 10,000+ concurrent users. Features real-time trade order management and client portfolio dashboards with SignalR, Redis caching layer, and event-driven async workflows over Azure Service Bus.</p>
+        <div class="project-desc">Architected and developed a microservices-based trading platform serving 10,000+ concurrent users with sub-100ms latency using ASP.NET Core, SignalR, and Azure.</div>
         <div class="project-stack">
           <span class="project-tech">ASP.NET Core 8</span>
           <span class="project-tech">Angular 16</span>
+          <span class="project-tech">Azure</span>
           <span class="project-tech">Redis</span>
           <span class="project-tech">SignalR</span>
-          <span class="project-tech">Azure SB</span>
         </div>
       </div>
-
       <div class="project-card reveal reveal-delay-1">
-        <div class="project-num">Project — 02</div>
-        <div class="project-name">Cloud-Native Microservices Platform</div>
+        <div class="project-num">PROJECT 02</div>
+        <div class="project-name">Cloud-Native Infrastructure Migration</div>
         <div class="project-impact">
-          <span class="impact-badge">💰 $120K Saved</span>
-          <span class="impact-badge">🚀 85% Faster Deploys</span>
+          <span class="impact-badge">$120K Saved</span>
+          <span class="impact-badge">Zero Downtime</span>
         </div>
-        <p class="project-desc">Fully containerized event-driven microservices architecture on Azure Kubernetes Service. Multi-stage CI/CD with blue-green deployment strategy via Azure DevOps, Terraform IaC, and Docker; reduced release cycle from 2 weeks to 2 days.</p>
+        <div class="project-desc">Led enterprise-wide migration to Azure Kubernetes Service with Infrastructure-as-Code, achieving 60% cost reduction and enabling auto-scaling capabilities.</div>
         <div class="project-stack">
-          <span class="project-tech">AKS</span>
+          <span class="project-tech">Azure AKS</span>
           <span class="project-tech">Docker</span>
-          <span class="project-tech">Kubernetes</span>
           <span class="project-tech">Terraform</span>
-          <span class="project-tech">Azure DevOps</span>
+          <span class="project-tech">DevOps</span>
         </div>
       </div>
-
       <div class="project-card reveal reveal-delay-2">
-        <div class="project-num">Project — 03</div>
-        <div class="project-name">Insurance Policy Management Portal</div>
+        <div class="project-num">PROJECT 03</div>
+        <div class="project-name">Event-Driven Notification System</div>
         <div class="project-impact">
-          <span class="impact-badge">📦 45% Bundle Reduction</span>
-          <span class="impact-badge">👥 5K+ DAU</span>
+          <span class="impact-badge">6+ Services</span>
+          <span class="impact-badge">Decoupled</span>
         </div>
-        <p class="project-desc">Enterprise policy management system with GraphQL APIs, NgRx state management, and CQRS with MediatR. Migrated legacy ASP.NET Web Forms to Clean Architecture; handled 2M+ record SSIS migrations with zero data loss.</p>
+        <div class="project-desc">Designed loosely-coupled event notification system using Azure Service Bus and MassTransit, processing 1M+ events daily with 99.99% reliability.</div>
         <div class="project-stack">
-          <span class="project-tech">ASP.NET Core</span>
-          <span class="project-tech">Angular 14</span>
-          <span class="project-tech">GraphQL</span>
-          <span class="project-tech">CQRS</span>
-          <span class="project-tech">SQL Server</span>
-        </div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="project-num">Project — 04</div>
-        <div class="project-name">Financial Risk & Compliance Dashboards</div>
-        <div class="project-impact">
-          <span class="impact-badge">🔍 60% Query Speedup</span>
-          <span class="impact-badge">✅ Zero Audit Findings</span>
-        </div>
-        <p class="project-desc">Risk and compliance reporting dashboards for investment banking. Optimized SQL Server through execution plan analysis, index tuning, and stored procedure refactoring. Full SOX and PCI-DSS compliance with Azure AD RBAC.</p>
-        <div class="project-stack">
-          <span class="project-tech">SQL Server</span>
-          <span class="project-tech">T-SQL</span>
-          <span class="project-tech">SSRS</span>
-          <span class="project-tech">Azure AD</span>
-          <span class="project-tech">App Insights</span>
-        </div>
-      </div>
-
-      <div class="project-card reveal reveal-delay-1">
-        <div class="project-num">Project — 05</div>
-        <div class="project-name">Digital Payment Gateway Integration</div>
-        <div class="project-impact">
-          <span class="impact-badge">💳 End-to-End Payments</span>
-          <span class="impact-badge">🔐 OAuth 2.0 Secured</span>
-        </div>
-        <p class="project-desc">Secure end-to-end digital policy purchase and renewal system integrating Stripe and PayPal APIs with OAuth 2.0 and JWT token management. Serves 5,000+ daily active users with full PCI-compliant transaction workflows.</p>
-        <div class="project-stack">
-          <span class="project-tech">OAuth 2.0</span>
-          <span class="project-tech">JWT</span>
-          <span class="project-tech">Stripe API</span>
-          <span class="project-tech">PayPal API</span>
-          <span class="project-tech">ASP.NET Core</span>
-        </div>
-      </div>
-
-      <div class="project-card reveal reveal-delay-2">
-        <div class="project-num">Project — 06</div>
-        <div class="project-name">Legacy Modernization Initiative</div>
-        <div class="project-impact">
-          <span class="impact-badge">🧹 40% Code Reduction</span>
-          <span class="impact-badge">🛡️ 50% Fewer Bugs</span>
-        </div>
-        <p class="project-desc">Complete migration of ASP.NET Web Forms to ASP.NET Core with Clean Architecture and CQRS using MediatR. Achieved 40% codebase reduction, enabled independent module deployment, and established 85% automated test coverage via xUnit, NUnit, Moq.</p>
-        <div class="project-stack">
-          <span class="project-tech">ASP.NET Core</span>
-          <span class="project-tech">MediatR</span>
-          <span class="project-tech">Clean Arch</span>
-          <span class="project-tech">xUnit</span>
-          <span class="project-tech">Jenkins</span>
+          <span class="project-tech">Azure Service Bus</span>
+          <span class="project-tech">MassTransit</span>
+          <span class="project-tech">Event-Driven</span>
+          <span class="project-tech">C#</span>
         </div>
       </div>
     </div>
@@ -1145,63 +1049,58 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <hr class="section-divider">
 
-<!-- CERTIFICATIONS / EDUCATION / CONTACT -->
+<!-- CONTACT -->
 <section id="contact">
   <div class="page">
-    <div class="section-header reveal">
-      <div class="section-label">Let's Connect</div>
-      <h2 class="section-title">Contact & <em>Education</em></h2>
-    </div>
-
-    <div class="contact-wrapper reveal">
+    <div class="contact-wrapper">
       <div class="contact-grid">
         <div class="contact-left">
-          <h2>Let's build something <em>exceptional</em> together.</h2>
-          <p>Open to senior .NET developer, cloud architecture, and backend engineering roles. 4+ years delivering production systems at scale. Available for remote or hybrid positions.</p>
+          <h2>Let's <em>Build</em> Something Great</h2>
+          <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
           <div class="contact-links">
             <a href="mailto:gunavamsikrishna@gmail.com" class="contact-link">
-              <div class="contact-link-icon">✉️</div>
+              <div class="contact-link-icon">📧</div>
               <div class="contact-link-content">
                 <div class="contact-link-label">Email</div>
                 <div class="contact-link-val">gunavamsikrishna@gmail.com</div>
               </div>
             </a>
+            <a href="https://www.linkedin.com/in/guna-vamsi-krishna-borigorla-aa109622a/" target="_blank" class="contact-link">
+              <div class="contact-link-icon">in</div>
+              <div class="contact-link-content">
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-val">Guna Vamsi Krishna</div>
+              </div>
+            </a>
             <a href="tel:+16036822475" class="contact-link">
-              <div class="contact-link-icon">📞</div>
+              <div class="contact-link-icon">☎️</div>
               <div class="contact-link-content">
                 <div class="contact-link-label">Phone</div>
                 <div class="contact-link-val">+1 (603) 682-2475</div>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/guna-vamsi-krishna-borigorla-aa109622a/" target="_blank" class="contact-link">
-              <div class="contact-link-icon">🔗</div>
-              <div class="contact-link-content">
-                <div class="contact-link-label">LinkedIn</div>
-                <div class="contact-link-val">guna-vamsi-krishna-borigorla</div>
-              </div>
-            </a>
           </div>
         </div>
-        <div>
+        <div class="contact-right">
           <div class="edu-section">
             <div class="edu-header">Education</div>
             <div class="edu-card">
-              <div class="edu-deg">M.S. Computer Science</div>
+              <div class="edu-deg">Master of Science in Computer Science</div>
               <div class="edu-school">Rivier University</div>
-              <div class="edu-loc">Nashua, NH, USA</div>
+              <div class="edu-loc">Nashua, New Hampshire</div>
             </div>
             <div class="edu-card">
-              <div class="edu-deg">B.Tech Computer Science & Engineering</div>
-              <div class="edu-school">Vellore Institute of Technology (VIT)</div>
-              <div class="edu-loc">Vellore, India</div>
+              <div class="edu-deg">Bachelor of Technology in Computer Science</div>
+              <div class="edu-school">Jawaharlal Nehru Technological University</div>
+              <div class="edu-loc">Hyderabad, India</div>
             </div>
-            <div class="availability-card">
-              <div class="avail-row">
-                <div class="avail-dot"></div>
-                <div class="avail-text">Available for new opportunities</div>
-              </div>
-              <div class="avail-sub">Senior .NET roles · Cloud architecture · Remote / Hybrid · New Hampshire, USA</div>
+          </div>
+          <div class="availability-card">
+            <div class="avail-row">
+              <div class="avail-dot"></div>
+              <div class="avail-text">Available for Contract Work</div>
             </div>
+            <div class="avail-sub">Open to consulting and full-time opportunities</div>
           </div>
         </div>
       </div>
@@ -1209,58 +1108,37 @@ footer a { color: var(--accent); text-decoration: none; }
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  <span>© 2026 Borigorla Guna Vamsi Krishna</span>
-  <span>Full Stack .NET Developer · <a href="mailto:gunavamsikrishna@gmail.com">gunavamsikrishna@gmail.com</a></span>
+  <span>© 2024 Guna Vamsi Krishna. All rights reserved.</span>
+  <span>Crafted with ❤️ and deployed via <a href="https://pages.github.com" target="_blank">GitHub Pages</a></span>
 </footer>
 
 <script>
-// Cursor glow
-const glow = document.getElementById('cursorGlow');
-document.addEventListener('mousemove', e => {
+// Cursor Glow Effect
+document.addEventListener('mousemove', (e) => {
+  const glow = document.getElementById('cursorGlow');
   glow.style.left = e.clientX + 'px';
   glow.style.top = e.clientY + 'px';
 });
 
-// Scroll reveal
-const reveals = document.querySelectorAll('.reveal');
+// Scroll Reveal Animation
+const observerOptions = {
+  threshold: 0.1,
+  rootMargin: '0px 0px -100px 0px'
+};
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
     }
   });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-reveals.forEach(el => observer.observe(el));
+}, observerOptions);
 
-// Active nav highlight
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('nav a[href^="#"]');
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(s => {
-    if (window.scrollY >= s.offsetTop - 120) current = s.id;
-  });
-  navLinks.forEach(a => {
-    a.style.color = '';
-    if (a.getAttribute('href') === '#' + current) a.style.color = 'var(--accent)';
-  });
-}, { passive: true });
-
-// Animate stat numbers
-function animateNum(el, target, suffix) {
-  let start = 0, duration = 1800;
-  const isFloat = target % 1 !== 0;
-  const step = (timestamp) => {
-    if (!start) start = timestamp;
-    const progress = Math.min((timestamp - start) / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3);
-    const val = isFloat ? (eased * target).toFixed(1) : Math.floor(eased * target);
-    el.textContent = val + suffix;
-    if (progress < 1) requestAnimationFrame(step);
-  };
-  requestAnimationFrame(step);
-}
+document.querySelectorAll('.reveal').forEach(el => {
+  observer.observe(el);
+});
 </script>
 </body>
 </html>
